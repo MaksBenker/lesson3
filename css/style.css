@@ -1,0 +1,70 @@
+/*
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+*/
+
+span {
+	font-weight: bold;
+}
+
+p.text{
+	color: red;
+	font-weight: bold;
+}
+
+p.kiril{
+	font-weight: bold;
+}
+
+.name,
+span {
+	color: blue;
+}
+
+.content li{
+	color: green;
+}
+
+#fw{
+	color: grey;
+}
+
+.inf > li{
+	color:orange;
+}
+
+.intocont{
+	color: black;
+}
+
+.cont + * {
+	color: brown;
+}
